@@ -1,10 +1,12 @@
 ﻿// Tusk.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include <iostream>
+#include <iostream>;
+#include <string>;
 
 int main()
-{
+{  
+    std::string firstName;
     std::cout << "Hello World!\n";
 }
 
