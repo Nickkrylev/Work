@@ -4,6 +4,6 @@
 class Developer
 {
 	int salary;
-	Project project;
+	Project *project;
 };
 
