@@ -1,13 +1,16 @@
 ﻿// Tusk.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include "Developer.h"
 #include <iostream>;
 #include <string>;
 
 int main()
 {  
-    std::string firstName;
-    std::cout << "Hello World!\n";
+    setlocale(LC_ALL, "Russian");
+    Developer first;
+    Developer second;
+    return 0;
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

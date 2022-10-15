@@ -1,9 +1,20 @@
 #pragma once
 #include "Personal.h";
 #include "Project.h";
-class Developer
+#include "Game.h";
+#include "Website.h";
+#include "Software.h";
+class Developer:public Personal
 {
-	int salary;
-	Project *project;
+public:
+	int salary ;
+	int indxArray = 0;
+	Project *project[];
+
+	Developer(string name = "");
+	friend std::ostream& operator<< (std::ostream& out, const Developer& developer);
+private:
+	int inpProject(int checkNum);
 };
 
+ 
